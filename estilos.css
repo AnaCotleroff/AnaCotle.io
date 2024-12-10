@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Berkshire+Swash&family=Delius+Swash+Caps&family=Leckerli+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Delius+Swash+Caps&family=Leckerli+One&display=swap');
+
+
+html, body {
+    height: 0%; 
+    background-color: #dd3f69; 
+  }
+
+
+ html h3 { 
+    color: white;
+    background-color: #dd3f69;
+    font-family: "Delius Swash Caps", cursive;
+   }
+   
+
+   html h1 { 
+    color: #ffffff;
+    background-color: rgb(48, 163, 96); 
+    font-family: "Berkshire Swash", serif;
+   }
+   
+   
+   html h4 { 
+    font-family: "Arya", sans-serif;
+   }
+   
+
+  .container {
+    background-color: #ff6291;
+    padding: 20px;
+    margin-top: 20px; 
+    border-radius: 8px; 
+    min-height: 0vh; 
+  }
+ 
+
+.subtitulo {
+    text-align: center;
+}
+
+
+nav  {
+margin-top: 50px;
+text-align: center;  
+}
+
+
+nav li {
+    display: inline-block;
+}
+
+
+nav a {
+    color: rgb(255, 0, 106);
+    padding: 60px;
+    display: inline-block;
+}
+
+
+nav a:hover {
+    color: rgb(0, 117, 63);
+}
+
+
+article{ 
+background-color: #fdacd2;
+padding: 5px;
+margin: 5px;
+}
+
+
+.arbolito {
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+}
+
+
+.nosotras{
+  width: 400px;
+  height: auto;
+  margin-top: 40px;
+}
+
+
+img {
+width: 50%; 
+height: 450x;
+margin-bottom: 40px;
+}
+
+
+.flecha{
+width: 50px; 
+height: auto;
+}
+
+
+nav a{
+text-decoration: none;
+color: #dd3f69;
+background-color: white;
+padding: 15px;
+display: inline-block;
+text-align: center;
+}
+
+
+html{
+scroll-behavior: smooth;
+}  
+
+
+footer {
+color: #ffffff;
+background-color: #dd3f69;
+padding: 50px;
+text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    }
+  }
